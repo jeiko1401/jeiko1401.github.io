@@ -1,0 +1,241 @@
+header {
+    background-color: #016839;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li a.active, li a:hover{
+    background: #7c0986;
+    transition: .5s;
+}
+
+:root {
+    --bg-nav-fot: #016839;
+    --letter-white: #FFFFFF;
+    --col-btn: #016839;
+    --bg-blue: #7c0986;
+    --bg-rose: #aaa787;
+    --input-grey: #C4C4C4;
+
+    --big-lg: 6.4rem;
+    --lg: 4rem;
+    --big-md: 3rem;
+    --md: 2.2rem;
+    --big-sm: 2rem;
+    --sm: 1.8rem;
+    --min: 1.5rem;
+
+    --f-weight-medium: 600;
+    --f-weight-light: 500;
+
+    --font-site: 'Montserrat', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--font-site);
+}
+img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 6.8rem;
+    background-color: var(--bg-nav-fot);
+}
+.logo-high {
+    position: absolute;
+    top: 1.4rem;
+    left: 2.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin-right: 20px;
+}
+.navbar li {
+    margin-right: 10.5rem;
+}
+.navbar li:last-child {
+    margin-right: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: var(--letter-white);
+    font-size: var(--sm);
+    font-weight: var(--f-weight-medium);
+}
+.main-container {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.section-up {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section h1 {
+    font-size: var(--big-lg);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.left-section h4 {
+    font-size: var(--sm);
+    color: var(--col-btn);
+    margin-bottom: 3rem;
+}
+.left-section p {
+    font-size: var(--md);
+    margin-bottom: 5.5rem;
+}
+.left-section div {
+    display: flex;
+}
+.left-section input {
+    width: 34rem;
+    height: 3.6rem;
+    border: 1px solid var(--input-grey);
+    margin-right: 1rem;
+}
+.left-section input[type="text"] {
+    padding-left: 1.5rem;
+    font-family: var(--font-site);
+    font-size: var(--min);
+}
+.left-section button {
+    width: 13.3rem;
+    height: 3.6rem;
+    background-color: var(--col-btn);
+    border: none;
+    border-radius: .6rem;
+    font-size: var(--sm);
+    color: var(--letter-white);
+}
+.section-up .right-section img {
+    margin-right: 12rem;
+    width: 37.1rem;
+}
+.first-section h2 {
+    font-size: var(--lg);
+    margin-bottom: 2rem;
+}
+.first-section {
+    margin-bottom: 6rem;
+}
+.first-section p {
+    font-size: var(--md);
+}
+.second-section {
+    margin-bottom: 5rem;
+}
+.second-section h2 {
+    font-size: var(--lg);
+    margin-bottom: 5rem;
+}
+.sub-cat {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.sub-cat div {
+    background-color: var(--bg-nav-fot);
+    width: 40.7rem;
+    height: 16.4rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3.1rem;
+}
+.sub-cat h3 {
+    color: var(--letter-white);
+    font-size: var(--big-md);
+    margin-bottom: 1rem;
+}
+.sub-cat p {
+    color: var(--letter-white);
+    font-size: var(--big-sm);
+}
+.third-section {
+    margin-bottom: 8rem;
+}
+.third-section h2 {
+    font-size: var(--lg);
+    margin-bottom: 6rem;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;
+}
+.courses div {
+    width: 37.5rem;
+    height: 16.4rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3.5rem;
+}
+.courses h3 {
+    color: var(--letter-white);
+    font-size: var(--big-md);
+}
+.courses div:first-child {
+    background-color: var(--col-btn);
+}
+.courses div:nth-child(2) {
+    background-color: var(--bg-blue);
+}
+.courses div:last-child {
+    background-color: var(--bg-rose);
+}
+footer {
+    background-color: var(--bg-nav-fot);
+}
+.footer-container {
+    margin-right: 5.2rem;
+    margin-left: 5.2rem;
+    height: 33.7rem;
+}
+
+
+.footer-container p {
+    color: var(--letter-white);
+    font-size: var(--min);
+    margin-bottom: 3rem;
+}
+.footer-container a {
+    color: var(--letter-white);
+    text-decoration: none;
+    display: block;
+    font-size: var(--min);
+    margin-bottom: 1.2rem;
+} 
+.courses1 div {
+    width: 134.5rem;
+    height: 46.4rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3.5rem;
+}
+.courses1 h3 {
+    color: var(--letter-white);
+    font-size: var(--big-md);
+}
+.courses1 div:first-child {
+    background-color: var(--col-btn);
+}
